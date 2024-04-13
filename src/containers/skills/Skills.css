@@ -16,7 +16,7 @@
 .skills-text-div {
   margin-left: 50px;
   margin-top: 3%;
-  padding-top: 80px;
+  padding-top: 40px;
   font-family: "Google Sans Regular";
 }
 
@@ -26,9 +26,9 @@
 }
 
 .skills-image-div > * {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .skills-heading {

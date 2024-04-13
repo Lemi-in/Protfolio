@@ -1,7 +1,7 @@
 // Theme Presets
 const lightTheme = {
   name: "light",
-  body: "#FEE9F2",
+  body: "#ffffff",
   text: "#343434",
   dark: "#31071A",
   secondaryText: "#7F8DAA",
@@ -26,7 +26,7 @@ const lightTheme = {
 
 const darkTheme = {
   name: "dark",
-  body: "#1D1D1D",
+  body: "#000000",
   text: "#FFFFFF",
   dark: "#000000",
   secondaryText: "#8D8D8D",
@@ -46,7 +46,7 @@ const darkTheme = {
   highlight: "#FBA7CD",
   imageHighlight: "#ef476f",
   compImgHighlight: "#E6E6E6",
-  jacketColor: "#8d99ae",
+  jacketColor: "blue",
 };
 
 export const themes = { light: lightTheme, dark: darkTheme };

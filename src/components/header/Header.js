@@ -21,7 +21,7 @@ function Header(props) {
     border: "none",
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "rgb(252 16 86 / 76%)",
+    backgroundColor: "000000",
     outline: "none",
     transition: "all 0.2s ease-in-out",
     ":hover": {
@@ -52,13 +52,13 @@ function Header(props) {
       <HiMoon
         strokeWidth={1}
         size={20}
-        color={props.theme.name === "light" ? "#FFFFFF" : "#A7A7A7"}
+        color={props.theme.name === "light" ? "#000000" : "white"}
       />
     ) : (
       <CgSun
         strokeWidth={1}
         size={20}
-        color={props.theme.name === "light" ? "#FFFFFF" : "#A7A7A7"}
+        color={props.theme.name === "light" ? "orange" : "orange"}
       />
     );
 

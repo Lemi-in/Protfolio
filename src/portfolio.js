@@ -3,16 +3,16 @@
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
 };
 
 //Home Page
 const greeting = {
   title: "Hi",
-  title2: " I'm Sumit Sharma",
-  logo_name: "Sumit Sharma",
+  title2: " I'm Lemesa Elias",
+  logo_name: "Lemi Elias",
   // nickname: "harry / picleric",
-  full_name: "Sumit Sharma",
+  //full_name: "Sumit Sharma",
   subTitle1: "Software Developer.",
   subTitle2: "Full Stack Developer.",
   subTitle: "Full Stack Developer, Life Long Learner.",
@@ -64,13 +64,13 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        {
-          skillName: "jQuery",
-          fontAwesomeClassname: "simple-icons:jquery",
-          style: {
-            color: "#0769ad",
-          },
-        },
+        // {
+        //   skillName: "jQuery",
+        //   fontAwesomeClassname: "simple-icons:jquery",
+        //   style: {
+        //     color: "#0769ad",
+        //   },
+        // },
         {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
@@ -78,20 +78,20 @@ const skills = {
             color: "#61DAFB",
           },
         },
-        {
-          skillName: "Redux",
-          fontAwesomeClassname: "simple-icons:redux",
-          style: {
-            color: "#593D88",
-          },
-        },
-        {
-          skillName: "Angular",
-          fontAwesomeClassname: "simple-icons:angular",
-          style: {
-            color: "#dd0031",
-          },
-        },
+        //{
+        //   skillName: "Redux",
+        //   fontAwesomeClassname: "simple-icons:redux",
+        //   style: {
+        //     color: "#593D88",
+        //   },
+        // },
+        // {
+        //   skillName: "Angular",
+        //   fontAwesomeClassname: "simple-icons:angular",
+        //   style: {
+        //     color: "#dd0031",
+        //   },
+        // },
         {
           skillName: "NodeJS",
           fontAwesomeClassname: "simple-icons:node-dot-js",
@@ -106,13 +106,13 @@ const skills = {
             color: "gray",
           },
         },
-        {
-          skillName: "Material UI",
-          fontAwesomeClassname: "simple-icons:uikit",
-          style: {
-            color: "#007FFF",
-          },
-        },
+        // {
+        //   skillName: "Material UI",
+        //   fontAwesomeClassname: "simple-icons:uikit",
+        //   style: {
+        //     color: "#007FFF",
+        //   },
+        // },
         {
           skillName: "Tailwind CSS",
           fontAwesomeClassname: "logos:tailwindcss-icon",
@@ -122,24 +122,24 @@ const skills = {
             height: "1em",
           },
         },
-        {
-          skillName: "Framer Motion",
-          fontAwesomeClassname: "logos:framer",
-          style: {
-            color: "#635BFF",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
-          skillName: "Styled Components",
-          fontAwesomeClassname: "vscode-icons:file-type-styled",
-          style: {
-            color: "#635BFF",
-            width: "1em",
-            height: "1em",
-          },
-        },
+        // {
+        //   skillName: "Framer Motion",
+        //   fontAwesomeClassname: "logos:framer",
+        //   style: {
+        //     color: "#635BFF",
+        //     width: "1em",
+        //     height: "1em",
+        //   },
+        // },
+        // {
+        //   skillName: "Styled Components",
+        //   fontAwesomeClassname: "vscode-icons:file-type-styled",
+        //   style: {
+        //     color: "#635BFF",
+        //     width: "1em",
+        //     height: "1em",
+        //   },
+        // },
         {
           skillName: "Bootstrap",
           fontAwesomeClassname: "simple-icons:bootstrap",
@@ -147,13 +147,13 @@ const skills = {
             color: "#563d7c",
           },
         },
-        {
-          skillName: "Postman",
-          fontAwesomeClassname: "simple-icons:postman",
-          style: {
-            color: "#FF6C37",
-          },
-        },
+        // {
+        //   skillName: "Postman",
+        //   fontAwesomeClassname: "simple-icons:postman",
+        //   style: {
+        //     color: "#FF6C37",
+        //   },
+        // },
         {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
@@ -168,45 +168,45 @@ const skills = {
             color: "#439743",
           },
         },
-        {
-          skillName: "Cloudinary",
-          fontAwesomeClassname: "logos:cloudinary-icon",
-          style: {
-            color: "#635BFF",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
-          skillName: "Stripe",
-          fontAwesomeClassname: "logos:stripe",
-          style: {
-            color: "#635BFF",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#4479A1",
-          },
-        },
+        // {
+        //   skillName: "Cloudinary",
+        //   fontAwesomeClassname: "logos:cloudinary-icon",
+        //   style: {
+        //     color: "#635BFF",
+        //     width: "1em",
+        //     height: "1em",
+        //   },
+        // },
+        // {
+        //   skillName: "Stripe",
+        //   fontAwesomeClassname: "logos:stripe",
+        //   style: {
+        //     color: "#635BFF",
+        //     width: "1em",
+        //     height: "1em",
+        //   },
+        // },
+        // {
+        //   skillName: "Java",
+        //   fontAwesomeClassname: "simple-icons:java",
+        //   style: {
+        //     color: "#f89820",
+        //   },
+        // },
+        // {
+        //   skillName: "MySQL",
+        //   fontAwesomeClassname: "simple-icons:mysql",
+        //   style: {
+        //     color: "#4479A1",
+        //   },
+        // },
+        // {
+        //   skillName: "PostgreSQL",
+        //   fontAwesomeClassname: "simple-icons:postgresql",
+        //   style: {
+        //     color: "#4479A1",
+        //   },
+        // },
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
@@ -255,29 +255,29 @@ const skills = {
           style: {
             color: "gray",
             fill: "gray",
-            // backgroundColor: "white",
+            backgroundColor: "white",
             width: "1em",
             height: "1em",
           },
         },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
-            width: "1em",
-            height: "1em",
-          },
-        },
+        // {
+        //   skillName: "Netlify",
+        //   fontAwesomeClassname: "simple-icons:netlify",
+        //   style: {
+        //     color: "#38AFBB",
+        //     width: "1em",
+        //     height: "1em",
+        //   },
+        // },
+        // {
+        //   skillName: "Heroku",
+        //   fontAwesomeClassname: "simple-icons:heroku",
+        //   style: {
+        //     color: "#6863A6",
+        //     width: "1em",
+        //     height: "1em",
+        //   },
+        // },
         {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
@@ -287,15 +287,15 @@ const skills = {
             height: "1em",
           },
         },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-            width: "1em",
-            height: "1em",
-          },
-        },
+        // {
+        //   skillName: "PostgreSQL",
+        //   fontAwesomeClassname: "simple-icons:postgresql",
+        //   style: {
+        //     color: "#336791",
+        //     width: "1em",
+        //     height: "1em",
+        //   },
+        // },
         {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
@@ -329,63 +329,63 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Amrita Vishwa Vidyapeetham, Coimbatore",
-      subtitle: "Masters in Computer Applications (MCA)",
+      title: "Addis Ababa Science and Technology University, Ethiopia",
+      subtitle: "Software engineering student",
       logo_path: "amrita_logo.png",
       alt_name: "Amrita University",
-      duration: "2021 - 2023",
+      duration: "2022 - Present",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence, Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have done courses on Cloud Computing and Full Stack Development.",
+        "I have taken varity of courses related to web development.",
+        "Apart from this, I have done courses on Cloud Computing and Full Stack Development.",
       ],
-      website_link: "https://www.amrita.edu/",
+      website_link: "http://studentinfo.aastu.edu.et/",
     },
-    {
-      title: "Guru Gobind Singh Indraprastha University, New Delhi",
-      subtitle: "Bachelors in Computer Applications (BCA)",
-      logo_path: "ggsipu_logo.png",
-      alt_name: "GGSIPU",
-      duration: "2018 - 2021",
-      descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        // "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development."
-      ],
-      website_link: "http://www.ipu.ac.in/",
-    },
-  ],
+//     {
+//       title: "Guru Gobind Singh Indraprastha University, New Delhi",
+//       subtitle: "Bachelors in Computer Applications (BCA)",
+//       logo_path: "ggsipu_logo.png",
+//       alt_name: "GGSIPU",
+//       duration: "2018 - 2021",
+//       descriptions: [
+//         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+//         // "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development."
+//       ],
+//       website_link: "http://www.ipu.ac.in/",
+//     },
+ ],
 };
 
 const certifications = {
   certifications: [
     {
-      title: "IBM Full Stack Software Developer",
+      title: "Accessing Web Data",
       subtitle: "",
       logo_path: "ibm_logo.jpg",
       certificate_link:
-        "https://coursera.org/share/cbcd30865e98e2e45161a6ace19d3558",
+        "https://www.coursera.org/account/accomplishments/verify/27EAM5FR35WM?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse",
       alt_name: "IBM",
       color_code: "#096ce1",
     },
     {
-      title: "Application Development using Microservices and Serverless",
+      title: "Python Data Structures",
       subtitle: "",
       logo_path: "ibm_logo.jpg",
       certificate_link:
-        "https://coursera.org/share/4fa1b8d2f654495a0b692b65d9964ad5",
+        "https://www.coursera.org/account/accomplishments/verify/4NJGB4VQRY2W?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse",
       alt_name: "IBM",
       color_code: "#096ce1",
     },
     {
-      title: "Introduction to Cloud Computing",
+      title: "React Fundamentals",
       subtitle: "",
       logo_path: "ibm_logo.jpg",
       certificate_link:
-        "https://coursera.org/share/438a8e16af4786782c8a739aef79e999",
+        "https://www.coursera.org/account/accomplishments/verify/T3FCHGJGXGVN?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse",
       alt_name: "IBM",
       color_code: "#096ce1",
     },
     {
-      title: "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
+      title: "Python for Data Science and AI",
       subtitle: "",
       logo_path: "ibm_logo.jpg",
       certificate_link:
@@ -393,170 +393,170 @@ const certifications = {
       alt_name: "IBM",
       color_code: "#096ce1",
     },
-    {
-      title: "Django Application Development with SQL and Databases",
-      subtitle: "",
-      logo_path: "ibm_logo.jpg",
-      certificate_link:
-        "https://coursera.org/share/47d8c39642888094ad458b5e44a3c9f3",
-      alt_name: "IBM",
-      color_code: "#096ce1",
-    },
-    {
-      title: "Developing AI Applications with Python and Flask",
-      subtitle: "",
-      logo_path: "ibm_logo.jpg",
-      certificate_link:
-        "https://coursera.org/share/f4ce59c0d68e4569056faaf2fdb4c256",
-      alt_name: "IBM",
-      color_code: "#096ce1",
-    },
-    {
-      title: "Frontend Developer Capstone",
-      subtitle: "",
-      logo_path: "meta_logo.png",
-      certificate_link:
-        "https://coursera.org/share/f80912b58e3afcfa49e6116210a2c9da",
-      alt_name: "Meta",
-      color_code: "#096ce1",
-    },
-    {
-      title: "Advanced React",
-      subtitle: "",
-      logo_path: "meta_logo.png",
-      certificate_link:
-        "https://coursera.org/share/877acd7eaf9dd532a2cb5b103576967e",
-      alt_name: "Meta",
-      color_code: "#096ce1",
-    },
-    {
-      title: "Java Programming: Build a Recommendation System",
-      subtitle: "",
-      logo_path: "duke-logo.jpg",
-      certificate_link:
-        "https://coursera.org/share/6af001cafc4b683bb38abdb9e81d0d79",
-      alt_name: "Duke University",
-      color_code: "#001a57",
-    },
-    {
-      title: "React Basics",
-      subtitle: "",
-      logo_path: "meta_logo.png",
-      certificate_link:
-        "https://coursera.org/share/29c75a387fcaf2f1e2403f73473092b2",
-      alt_name: "Meta",
-      color_code: "#096ce1",
-    },
-    {
-      title: "Programming with JavaScript",
-      subtitle: "",
-      logo_path: "meta_logo.png",
-      certificate_link:
-        "https://coursera.org/share/cb44f1ee2db3f50b83a56cbae15fcc74",
-      alt_name: "Meta",
-      color_code: "#096ce1",
-    },
-    {
-      title: "HTML and CSS in depth",
-      subtitle: "",
-      logo_path: "meta_logo.png",
-      certificate_link:
-        "https://coursera.org/share/667de02731a480b76b5300c6612d174d",
-      alt_name: "Meta",
-      color_code: "#096ce1",
-    },
-    {
-      title: "Java Programming: Principles of Software Design",
-      subtitle: "",
-      logo_path: "duke-logo.jpg",
-      certificate_link:
-        "https://coursera.org/share/f4e9af47fbb24381e04031f3cc8cfd9f",
-      alt_name: "Duke University",
-      color_code: "#001a57",
-    },
-    {
-      title: "Java Programming: Solving Problems with Software",
-      subtitle: "",
-      logo_path: "duke-logo.jpg",
-      certificate_link:
-        "https://coursera.org/share/36411fcea7ea4fbb5c613ef4911f4668",
-      alt_name: "Duke University",
-      color_code: "#001a57",
-    },
-    {
-      title: "Programming Foundations with JavaScript, HTML and CSS",
-      subtitle: "",
-      logo_path: "duke-logo.jpg",
-      certificate_link:
-        "https://coursera.org/share/0269c76c33997304d1842d4eef16815b",
-      alt_name: "Duke University",
-      color_code: "#001a57",
-    },
-    {
-      title: "Android Application Development - II",
-      subtitle: "- Dr. Adam Porter",
-      logo_path: "maryland_logo.svg",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/GN48B7W9TU59",
-      alt_name: "Stanford University",
-      color_code: "#e11a2b",
-    },
-    {
-      title: "Android Application Development - I",
-      subtitle: "- Dr. Adam Porter",
-      logo_path: "maryland_logo.svg",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/2H59Z22DDSU8",
-      alt_name: "Stanford University",
-      color_code: "#e11a2b",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Christian Hur",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/97WF8EZ4Y2YD",
-      alt_name: "Coursera",
-      color_code: "#0056d2",
-    },
-    {
-      title: "ML and AI in GCP",
-      subtitle: "- GCP Training",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.cloudskillsboost.google/public_profiles/345a17d9-689f-4154-a3d3-c0396c98b3bc/badges/2862832",
-      alt_name: "GCP",
-      color_code: "#2fa9508a",
-    },
-    {
-      title: "Foundational Infrastructure in GCP",
-      subtitle: "- GCP Training",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.cloudskillsboost.google/public_profiles/345a17d9-689f-4154-a3d3-c0396c98b3bc/badges/2653409",
-      alt_name: "GCP",
-      color_code: "#4087f08a",
-    },
-    {
-      title: "Networking & Security in GCP",
-      subtitle: "- GCP Training",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.cloudskillsboost.google/public_profiles/345a17d9-689f-4154-a3d3-c0396c98b3bc/badges/2510430",
-      alt_name: "GCP",
-      color_code: "#eb40308a",
-    },
-    {
-      title: "Cloud Computing Fundamentals in GCP",
-      subtitle: "- GCP Training",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.cloudskillsboost.google/public_profiles/345a17d9-689f-4154-a3d3-c0396c98b3bc/badges/2469792",
-      alt_name: "GCP",
-      color_code: "#fabd008a",
-    },
+    // {
+    //   title: "Django Application Development with SQL and Databases",
+    //   subtitle: "",
+    //   logo_path: "ibm_logo.jpg",
+    //   certificate_link:
+    //     "https://coursera.org/share/4https://www.coursera.org/account/accomplishments/verify/T3FCHGJGXGVN?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse7d8c39642888094ad458b5e44a3c9f3",
+    //   alt_name: "IBM",
+    //   color_code: "#096ce1",
+    // },
+//     {
+//       title: "Developing AI Applications with Python and Flask",
+//       subtitle: "",
+//       logo_path: "ibm_logo.jpg",
+//       certificate_link:
+//         "https://coursera.org/share/f4ce59c0d68e4569056faaf2fdb4c256",
+//       alt_name: "IBM",
+//       color_code: "#096ce1",
+//     },
+//     {
+//       title: "Frontend Developer Capstone",
+//       subtitle: "",
+//       logo_path: "meta_logo.png",
+//       certificate_link:
+//         "https://coursera.org/share/f80912b58e3afcfa49e6116210a2c9da",
+//       alt_name: "Meta",
+//       color_code: "#096ce1",
+//     },
+//     {
+//       title: "Advanced React",
+//       subtitle: "",
+//       logo_path: "meta_logo.png",
+//       certificate_link:
+//         "https://coursera.org/share/877acd7eaf9dd532a2cb5b103576967e",
+//       alt_name: "Meta",
+//       color_code: "#096ce1",
+//     },
+//     {
+//       title: "Java Programming: Build a Recommendation System",
+//       subtitle: "",
+//       logo_path: "duke-logo.jpg",
+//       certificate_link:
+//         "https://coursera.org/share/6af001cafc4b683bb38abdb9e81d0d79",
+//       alt_name: "Duke University",
+//       color_code: "#001a57",
+//     },
+//     {
+//       title: "React Basics",
+//       subtitle: "",
+//       logo_path: "meta_logo.png",
+//       certificate_link:
+//         "https://coursera.org/share/29c75a387fcaf2f1e2403f73473092b2",
+//       alt_name: "Meta",
+//       color_code: "#096ce1",
+//     },
+//     {
+//       title: "Programming with JavaScript",
+//       subtitle: "",
+//       logo_path: "meta_logo.png",
+//       certificate_link:
+//         "https://coursera.org/share/cb44f1ee2db3f50b83a56cbae15fcc74",
+//       alt_name: "Meta",
+//       color_code: "#096ce1",
+//     },
+//     {
+//       title: "HTML and CSS in depth",
+//       subtitle: "",
+//       logo_path: "meta_logo.png",
+//       certificate_link:
+//         "https://coursera.org/share/667de02731a480b76b5300c6612d174d",
+//       alt_name: "Meta",
+//       color_code: "#096ce1",
+//     },
+//     {
+//       title: "Java Programming: Principles of Software Design",
+//       subtitle: "",
+//       logo_path: "duke-logo.jpg",
+//       certificate_link:
+//         "https://coursera.org/share/f4e9af47fbb24381e04031f3cc8cfd9f",
+//       alt_name: "Duke University",
+//       color_code: "#001a57",
+//     },
+//     {
+//       title: "Java Programming: Solving Problems with Software",
+//       subtitle: "",
+//       logo_path: "duke-logo.jpg",
+//       certificate_link:
+//         "https://coursera.org/share/36411fcea7ea4fbb5c613ef4911f4668",
+//       alt_name: "Duke University",
+//       color_code: "#001a57",
+//     },
+//     {
+//       title: "Programming Foundations with JavaScript, HTML and CSS",
+//       subtitle: "",
+//       logo_path: "duke-logo.jpg",
+//       certificate_link:
+//         "https://coursera.org/share/0269c76c33997304d1842d4eef16815b",
+//       alt_name: "Duke University",
+//       color_code: "#001a57",
+//     },
+//     {
+//       title: "Android Application Development - II",
+//       subtitle: "- Dr. Adam Porter",
+//       logo_path: "maryland_logo.svg",
+//       certificate_link:
+//         "https://www.coursera.org/account/accomplishments/verify/GN48B7W9TU59",
+//       alt_name: "Stanford University",
+//       color_code: "#e11a2b",
+//     },
+//     {
+//       title: "Android Application Development - I",
+//       subtitle: "- Dr. Adam Porter",
+//       logo_path: "maryland_logo.svg",
+//       certificate_link:
+//         "https://www.coursera.org/account/accomplishments/verify/2H59Z22DDSU8",
+//       alt_name: "Stanford University",
+//       color_code: "#e11a2b",
+//     },
+//     {
+//       title: "Fullstack Development",
+//       subtitle: "- Christian Hur",
+//       logo_path: "coursera_logo.png",
+//       certificate_link:
+//         "https://www.coursera.org/account/accomplishments/verify/97WF8EZ4Y2YD",
+//       alt_name: "Coursera",
+//       color_code: "#0056d2",
+//     },
+//     {
+//       title: "ML and AI in GCP",
+//       subtitle: "- GCP Training",
+//       logo_path: "gcp_logo.png",
+//       certificate_link:
+//         "https://www.cloudskillsboost.google/public_profiles/345a17d9-689f-4154-a3d3-c0396c98b3bc/badges/2862832",
+//       alt_name: "GCP",
+//       color_code: "#2fa9508a",
+//     },
+//     {
+//       title: "Foundational Infrastructure in GCP",
+//       subtitle: "- GCP Training",
+//       logo_path: "gcp_logo.png",
+//       certificate_link:
+//         "https://www.cloudskillsboost.google/public_profiles/345a17d9-689f-4154-a3d3-c0396c98b3bc/badges/2653409",
+//       alt_name: "GCP",
+//       color_code: "#4087f08a",
+//     },
+//     {
+//       title: "Networking & Security in GCP",
+//       subtitle: "- GCP Training",
+//       logo_path: "gcp_logo.png",
+//       certificate_link:
+//         "https://www.cloudskillsboost.google/public_profiles/345a17d9-689f-4154-a3d3-c0396c98b3bc/badges/2510430",
+//       alt_name: "GCP",
+//       color_code: "#eb40308a",
+//     },
+//     {
+//       title: "Cloud Computing Fundamentals in GCP",
+//       subtitle: "- GCP Training",
+//       logo_path: "gcp_logo.png",
+//       certificate_link:
+//         "https://www.cloudskillsboost.google/public_profiles/345a17d9-689f-4154-a3d3-c0396c98b3bc/badges/2469792",
+//       alt_name: "GCP",
+//       color_code: "#fabd008a",
+//     },
   ],
-};
+ };
 
 // Experience Page
 const experience = {
