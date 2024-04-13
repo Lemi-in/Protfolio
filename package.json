@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@restart/ui": "^2.0.0", 
+    "@restart/ui": "^1.6.8", 
     "@react-aria/ssr": "^4.0.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -16,7 +16,7 @@
     "glamor": "^2.20.40",
     "graphql": "^15.8.0",
     "node-fetch": "^3.3.0",
-    "radium": "^0.27.4",
+    "radium": "^0.26.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-cursor-custom": "^1.2.4",
