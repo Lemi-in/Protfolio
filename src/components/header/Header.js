@@ -52,7 +52,7 @@ function Header(props) {
       <HiMoon
         strokeWidth={1}
         size={20}
-        color={props.theme.name === "light" ? "#000000" : "white"}
+        color={props.theme.name === "light" ? "#000000" : ""}
       />
     ) : (
       <CgSun

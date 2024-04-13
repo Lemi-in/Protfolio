@@ -10,9 +10,9 @@ const settings = {
 const greeting = {
   title: "Hi",
   title2: " I'm Lemesa Elias",
-  logo_name: "Lemi Elias",
+  logo_name: "Lemi",
   // nickname: "harry / picleric",
-  //full_name: "Sumit Sharma",
+  full_name: "Lemesa Elias",
   subTitle1: "Software Developer.",
   subTitle2: "Full Stack Developer.",
   subTitle: "Full Stack Developer, Life Long Learner.",
@@ -23,10 +23,10 @@ const greeting = {
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/sumit-sharma-02",
-  linkedin: "https://www.linkedin.com/in/sumitsharma002",
-  gmail: "sumitsharma9968@gmail.com",
-  twitter: "https://twitter.com/sumitsharma002",
+  github: "https://github.com/Lemi-in",
+  linkedin: "https://www.linkedin.com/in/lemesa-elias-138045285/",
+  gmail: "lemesaelias@gmail.com",
+  twitter: "https://twitter.com/Lemi_in",
 };
 
 const skills = {
@@ -232,12 +232,12 @@ const skills = {
     },
     {
       _id: "c026fe64-1542-42b0-84ab-9311840c169f",
-      title: "Infra-Architecture",
+      title: "Infrastructure Design.",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        " Experience working on multiple cloud platforms",
+        " Experience hosting and managing websites",
+        " Experience with Continuous Integration",
       ],
       softwareSkills: [
         {
@@ -568,28 +568,28 @@ const experience = {
   sections: {
     title: "Work Experience",
     experiences: [
-      {
-        title: "SDE - I",
-        company: "Ottonomy",
-        company_url: "https://ottonomy.io/",
-        logo_path: "ottonomy-logo.webp",
-        alt_name: "ottonomy-logo",
-        duration: "(May, 2023 - Present)",
-        location: "Noida (On-Site)",
-        description: "<li> Working on developing a media management software to schedule advertisements in the robot screens.</li><br><li>Working on optimizing E-commerce app and developing analytics dashboard for robots and orders.</li><br><li>Implemented socket to allow users to transfer the controlling of a robot to a different user.</li><br><li>Developed a dashboard to display live feed from robot with map, joystick controls to control the robot with robot commands.</li>",
-        color: "#000000",
-      },
-      {
-        title: "Senior System Associate",
-        company: "Infosys",
-        company_url: "https://www.infosys.com/",
-        logo_path: "infosys-logo.png",
-        alt_name: "infosys-logo",
-        duration: "(Aug, 2021 - May, 2023)",
-        location: "Mysore (Remote)",
-        description: "<li> Created a PWA for educators, allowing them to create analogies with animations using HTML, CSS, JavaScript, and Fabric.js.</li><br><li>Enhanced the product, introduced new features like multiple content pages, audio, custom gradients, trigger-based animations using React.js.</li><br><li>Developed an web based AR/VR learning platform using Node, Express and socket for multi-user experience and other features like chat, screen, audio and video share for web based.</li><br><li>Developed 2 new tools with an intuitive design for interactive content creation using Angular</li>",
-        color: "#0071C5",
-      }
+      // {
+      //   title: "SDE - I",
+      //   company: "Ottonomy",
+      //   company_url: "https://ottonomy.io/",
+      //   logo_path: "ottonomy-logo.webp",
+      //   alt_name: "ottonomy-logo",
+      //   duration: "(May, 2023 - Present)",
+      //   location: "Noida (On-Site)",
+      //   description: "<li> Working on developing a media management software to schedule advertisements in the robot screens.</li><br><li>Working on optimizing E-commerce app and developing analytics dashboard for robots and orders.</li><br><li>Implemented socket to allow users to transfer the controlling of a robot to a different user.</li><br><li>Developed a dashboard to display live feed from robot with map, joystick controls to control the robot with robot commands.</li>",
+      //   color: "#000000",
+      // },
+      // {
+      //   title: "Senior System Associate",
+      //   company: "Infosys",
+      //   company_url: "https://www.infosys.com/",
+      //   logo_path: "infosys-logo.png",
+      //   alt_name: "infosys-logo",
+      //   duration: "(Aug, 2021 - May, 2023)",
+      //   location: "Mysore (Remote)",
+      //   description: "<li> Created a PWA for educators, allowing them to create analogies with animations using HTML, CSS, JavaScript, and Fabric.js.</li><br><li>Enhanced the product, introduced new features like multiple content pages, audio, custom gradients, trigger-based animations using React.js.</li><br><li>Developed an web based AR/VR learning platform using Node, Express and socket for multi-user experience and other features like chat, screen, audio and video share for web based.</li><br><li>Developed 2 new tools with an intuitive design for interactive content creation using Angular</li>",
+      //   color: "#0071C5",
+      // }
     ],
   },
 };
@@ -598,7 +598,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create MERN and MEAN Stack Projects. Below are some of my projects.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create MERN Stack Projects. Below are some of my projects.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -606,65 +606,57 @@ const projects = {
   data: [
     {
       id: "project-0",
-      name: "Crafty Commerce",
-      url: "https://crafty-commerce.vercel.app/",
-      repoUrl: "https://github.com/sumit-sharma-02/crafty-commerce",
+      name: "Cinima Ras",
+      url: "https://cinema-ras.vercel.app/",
+      repoUrl: "https://github.com/Lemi-in/Capstone-Project.git",
       description:
-        "Crafty Commerce is a full stack e-commerce web application that allows you to purchase different categories of product online. You can apply filters accordingly and find your favourite products in crafty commerce. You can pay with debit/credit cards and in just few click your product will be delivered.",
+        "Cinima Ras is a movie recommendation website built using react alongside with firebase for authentication and TMDB API for the data.",
       languages: [
         {
           name: "React",
           iconifyClass: "logos:react",
         },
+
         {
-          name: "Redux",
-          iconifyClass: "logos:redux",
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
         },
+       
         {
-          name: "Express",
-          iconifyClass: "simple-icons:express",
-        },
-        {
-          name: "Nodejs",
-          iconifyClass: "logos:nodejs",
-        },
-        {
-          name: "MongoDB",
-          iconifyClass: "vscode-icons:file-type-mongo",
-        },
-        {
-          name: "Stripe",
-          iconifyClass: "logos:stripe",
+          name: "Firebase",
+          iconifyClass: "logos:firebase",
         },
         {
           name: "Tailwind",
           iconifyClass: "vscode-icons:file-type-tailwind",
         },
         {
-          name: "Cloudinary",
-          iconifyClass: "logos:cloudinary-icon",
+          name: "Java Script",
+          iconifyClass: "logos:javascript",
         },
+       
         {
-          name: "Framer Motion",
-          iconifyClass: "logos:framer",
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
         },
+       
       ],
     },
     {
       id: "project-1",
-      name: "Tikkaway",
+      name: "Kealem Gallery",
       url: "https://restaurant-app-bceb0.web.app/",
       repoUrl: "https://github.com/sumit-sharma-02/tikkaway",
       description:
-        "Tikkaway is a full stack restaurant web application that allows you to order food online. It has wide variety of categories on the menu like Chicken, Curry, Rice, Fish, Fruits, Icecreams, Soft Drinks etc.",
+        "Kealem Gallery is an educational and entertaiment website built using React, django, Firebase and Tailwind CSS. It is a responsive website with a beautiful UI.",
       languages: [
         {
           name: "React",
           iconifyClass: "logos:react",
         },
         {
-          name: "Redux",
-          iconifyClass: "logos:redux",
+          name: "django",
+          iconifyClass: "logos:django-icon",
         },
         {
           name: "Firebase",
@@ -675,51 +667,77 @@ const projects = {
           iconifyClass: "vscode-icons:file-type-tailwind",
         },
         {
-          name: "Framer Motion",
-          iconifyClass: "logos:framer",
+          name: "Java Script",
+          iconifyClass: "logos:javascript",
         },
+       
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "Python",
+          iconifyClass: "logos:python",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+       
       ],
     },
     {
       id: "project-2",
-      name: "MEAN Agency",
-      url: "",
-      repoUrl: "https://github.com/sumit-sharma-02/mean-agency",
+      name: "Unigram",
+      url: "https://unigram-et.vercel.app/",
+      repoUrl: "https://github.com/unigram-et/frontend.git",
       description:
-        "Mean Agency is a full stack service provider web application that allows you to provide services to other companies.",
+        "Unigram is a social media like website for university students to share knowledge and experiance, built using React, Django and tailwind,. It is a responsive website with a beautiful UI.",
       languages: [
+        
         {
-          name: "Angular",
-          iconifyClass: "logos:angular-icon",
+          name: "React",
+          iconifyClass: "logos:react",
         },
         {
-          name: "Express",
-          iconifyClass: "simple-icons:express",
+          name: "django",
+          iconifyClass: "logos:django-icon",
         },
         {
-          name: "Nodejs",
-          iconifyClass: "logos:nodejs",
+          name: "Firebase",
+          iconifyClass: "logos:firebase",
         },
         {
-          name: "MongoDB",
-          iconifyClass: "vscode-icons:file-type-mongo",
+          name: "Tailwind",
+          iconifyClass: "vscode-icons:file-type-tailwind",
         },
         {
-          name: "Bootstrap",
-          iconifyClass: "logos:bootstrap",
+          name: "Java Script",
+          iconifyClass: "logos:javascript",
+        },
+       
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
         },
         {
-          name: "Handlebars",
-          iconifyClass: "vscode-icons:file-type-handlebars",
+          name: "Python",
+          iconifyClass: "logos:python",
         },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+
+        
       ],
     },
     {
       id: "project-3",
-      name: "Countdown Timer",
-      url: "https://countdown-timer-sumit-sharma-02.vercel.app/",
-      repoUrl: "https://github.com/sumit-sharma-02/countdown-timer",
-      description: "A Simple React App for countdown to new year using hooks.",
+      name: "Excercixe Tracker",
+      url: "",
+      repoUrl: "https://github.com/Lemi-in/Exercise-tracker-MERN-Stack-Project-.git",
+      description: "A simple Excercise Tracker built using React, Express, Nodejs and MongoDB. It is a responsive website with a beautiful UI.",
       languages: [
         {
           name: "HTML5",
@@ -736,6 +754,22 @@ const projects = {
         {
           name: "React",
           iconifyClass: "logos-react",
+        },
+        {
+          name: "nodejs",
+          iconifyClass: "logos-nodejs",
+        },
+        {
+          name: "express",
+          iconifyClass: "logos-express",
+        },
+        {
+          name: "mongoDB",
+          iconifyClass: "logos-mongodb",
+        },
+        {
+          name: "tailwind",
+          iconifyClass: "vscode-icons:file-type-tailwind",
         },
       ],
     },
@@ -763,33 +797,91 @@ const projects = {
           iconifyClass: "logos-javascript",
         },
         {
-          name: "React Reveal",
-          iconifyClass: "simple-icons:scrollreveal",
+          name: "tailwind",
+          iconifyClass: "vscode-icons:file-type-tailwind",
+        },
+      ],
+    },
+    {
+    
+      id: "project-6",
+      name: "Horan Web",
+      url: "https://horan-web.vercel.app/",
+      repoUrl: "https://github.com/Lemi-in/horan-web.git",
+      description: "A simple ecommerce website built using React, Express, Nodejs and MongoDB. It is a responsive website with a beautiful UI.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
         },
         {
-          name: "Styled Components",
-          iconifyClass: "vscode-icons:file-type-styled",
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "nodejs",
+          iconifyClass: "logos-nodejs",
+        },
+        {
+          name: "express",
+          iconifyClass: "logos-express",
+        },
+        {
+          name: "mongoDB",
+          iconifyClass: "logos-mongodb",
+        },
+        {
+          name: "tailwind",
+          iconifyClass: "vscode-icons:file-type-tailwind",
         },
       ],
     },
     {
       id: "project-5",
-      name: "SpaceX Capsules",
+      name: "Blog Website",
       url: "https://spacex-capsules.vercel.app/",
       repoUrl: "https://github.com/sumit-sharma-02/spacex-capsules",
       description:
-        "A React application which shows you the filtered spaceX capsules data.",
+        "A blog website built using Reat, express, node, mongoDB and tailwind css It is a responsive website with a beautiful UI.",
       languages: [
         {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
           name: "React",
-          iconifyClass: "logos:react",
+          iconifyClass: "logos-react",
         },
         {
-          name: "Redux",
-          iconifyClass: "logos:redux",
+          name: "nodejs",
+          iconifyClass: "logos-nodejs",
         },
         {
-          name: "Tailwind",
+          name: "express",
+          iconifyClass: "logos-express",
+        },
+        {
+          name: "mongoDB",
+          iconifyClass: "logos-mongodb",
+        },
+        {
+          name: "tailwind",
           iconifyClass: "vscode-icons:file-type-tailwind",
         },
       ],

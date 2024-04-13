@@ -13,7 +13,7 @@
 .project-card-overlay {
   position: absolute;
   margin: -2rem;
-  background: #fc1056;
+  background: #090952;
   z-index: -1;
   transition: tranform 0.25s ease-out;
 }
@@ -75,7 +75,7 @@
   font-size: 14px;
   font-family: "Google Sans Regular";
   border-radius: 20px;
-  background: #fc1056;
+  background:rgb(6, 6, 112);
   color: white;
   justify-content: center;
   align-items: center;

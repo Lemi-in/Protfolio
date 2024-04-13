@@ -2,7 +2,7 @@
 .header-container-light {
   position: sticky;
   inset: 0;
-  background-color: #fee9f2;
+  background-color: #e7e5e6;
   z-index: 10;
   box-shadow: 0 2px 2px rgb(230 230 230);
 }
@@ -51,9 +51,16 @@
 }
 
 .header .logo-name {
-  font-family: "Agustina Regular";
+  font-family: cursive;
   font-weight: bold;
   padding: 0 10px;
+
+  /* "Lobster"
+"Great Vibes"
+"Pacifico"
+"Dancing Script"
+"Sacramento" */
+
 }
 
 /* menu */
@@ -78,7 +85,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: #fb1056;
+  background: blue;
   display: block;
   height: 2px;
   position: relative;
@@ -88,7 +95,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #fb1056;
+  background: blue;
   content: "";
   display: block;
   height: 100%;
@@ -152,7 +159,7 @@
   height: 0.15em;
   bottom: 0;
   width: 100%;
-  background-color: #fb1056;
+  background: blue;
   transition: all ease-in-out 280ms;
 }
 
@@ -172,7 +179,7 @@
   height: 0.15em;
   bottom: 0;
   width: 0%;
-  background-color: #fb1056;
+  background: blue;
   transition: all ease-in-out 280ms;
 }
 
@@ -194,7 +201,7 @@
   height: 0.15em;
   bottom: 0;
   width: 0%;
-  background-color: #fb1056;
+  background-color: blue;
   transition: all ease-in-out 280ms;
 }
 
@@ -216,7 +223,7 @@
   height: 0.15em;
   bottom: 0;
   width: 0%;
-  background-color: #fb1056;
+  background-color: blue;
   transition: all ease-in-out 280ms;
 }
 
@@ -238,7 +245,7 @@
   height: 0.15em;
   bottom: 0;
   width: 0%;
-  background-color: #fb1056;
+  background-color: blue;
   transition: all ease-in-out 280ms;
 }
 
@@ -260,7 +267,7 @@
   height: 0.15em;
   bottom: 0;
   width: 0%;
-  background-color: #fb1056;
+  background-color: blue;
   transition: all ease-in-out 280ms;
 }
 

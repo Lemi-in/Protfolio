@@ -8,8 +8,8 @@ const lightTheme = {
   ternaryText: "#FFFFFF",
   themeColor: "#FFFFFF",
   oppositeThemeColor: "#000000",
-  accentColor: "#E3405F",
-  accentBright: "#FC1056",
+  accentColor: "#0066CC", // Changed from "#E3405F" (closer to pink) to blue
+  accentBright: "#0056B3", // Changed from "#FC1056" (closer to pink) to blue
   projectCard: "#DCE4F2",
   skinColor: "#F7B799",
   skinColor2: "#FCB696",
@@ -18,8 +18,8 @@ const lightTheme = {
   avatarMisc: "#e9ecf2",
   avatarShoes: "#ccd2e3",
   expTxtColor: "#000a12",
-  highlight: "#FBA7CD",
-  imageHighlight: "#ef476f",
+  highlight: "#0066CC", // Changed from "#FBA7CD" (closer to pink) to blue
+  imageHighlight: "#0077FF", // Changed from "#ef476f" (closer to pink) to blue
   compImgHighlight: "#E6E6E6",
   jacketColor: "#8d99ae",
 };
@@ -33,8 +33,8 @@ const darkTheme = {
   ternaryText: "#FFFFFF",
   themeColor: "#1d1d1d",
   oppositeThemeColor: "#FFFFFF",
-  accentColor: "#E3405F",
-  accentBright: "#FC1056",
+  accentColor: "#0066CC", // Changed from "#E3405F" (closer to pink) to blue
+  accentBright: "#0056B3", // Changed from "#FC1056" (closer to pink) to blue
   projectCard: "#292A2D",
   skinColor: "#F7B799",
   skinColor2: "#FCB696",
@@ -43,8 +43,8 @@ const darkTheme = {
   avatarMisc: "#212121",
   avatarShoes: "#2B2B2B",
   expTxtColor: "#000a12",
-  highlight: "#FBA7CD",
-  imageHighlight: "#ef476f",
+  highlight: "#0066CC", // Changed from "#FBA7CD" (closer to pink) to blue
+  imageHighlight: "#0077FF", // Changed from "#ef476f" (closer to pink) to blue
   compImgHighlight: "#E6E6E6",
   jacketColor: "blue",
 };
