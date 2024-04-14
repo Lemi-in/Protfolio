@@ -2,34 +2,32 @@ import React, { useState } from "react";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
-import { CgSun } from "react-icons/cg/";
-import { HiMoon } from "react-icons/hi";
-import { style } from "glamor";
+//import { style } from "glamor";
 import "./Header.css";
 
 function Header(props) {
   const theme = props.theme;
 
-  const styles = style({
-    cursor: "pointer",
-    height: "45px",
-    width: "45px",
-    marginRight: "5px",
-    marginLeft: "15px",
-    paddingTop: "5px",
-    borderRadius: "50%",
-    border: "none",
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "000000",
-    outline: "none",
-    transition: "all 0.2s ease-in-out",
-    ":hover": {
-      boxShadow: `0 3px 8px ${
-        props.theme.name === "light" ? "#fc10568f" : "#646464"
-      }`,
-    },
-  });
+  // const styles = style({
+  //   cursor: "pointer",
+  //   height: "45px",
+  //   width: "45px",
+  //   marginRight: "5px",
+  //   marginLeft: "15px",
+  //   paddingTop: "5px",
+  //   borderRadius: "50%",
+  //   border: "none",
+  //   alignItems: "center",
+  //   justifyContent: "center",
+  //   backgroundColor: "000000",
+  //   outline: "none",
+  //   transition: "all 0.2s ease-in-out",
+  //   ":hover": {
+  //     boxShadow: `0 3px 8px ${
+  //       props.theme.name === "light" ? "#fc10568f" : "#646464"
+  //     }`,
+  //   },
+  // });
 
   const link = settings.isSplash ? "/splash" : "home";
 
@@ -46,21 +44,6 @@ function Header(props) {
       setCurrTheme("light");
     }
   }
-
-  const icon =
-    props.theme.name === "dark" ? (
-      <HiMoon
-        strokeWidth={1}
-        size={20}
-        color={props.theme.name === "light" ? "#000000" : ""}
-      />
-    ) : (
-      <CgSun
-        strokeWidth={1}
-        size={20}
-        color={props.theme.name === "light" ? "orange" : "orange"}
-      />
-    );
 
   return (
     <Fade top duration={1000} distance="20px">
@@ -138,12 +121,17 @@ function Header(props) {
                 Contact
               </NavLink>
             </li>
-            <button {...styles} onClick={changeTheme}>
-              {icon}
+            <button
+              className={`${props.theme.name === "light" ? "sun-button" : "moon-button"}`}
+              style={{ marginTop: "10px", cursor:"pointer", borderRadius:"15px" }}
+              onClick={changeTheme}
+            >
+              {props.theme.name === "light" ? "☀" : "🌙"}
             </button>
           </ul>
         </header>
       </div>
+      
     </Fade>
   );
 }
